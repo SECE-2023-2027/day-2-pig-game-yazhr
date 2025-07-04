@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Pig Game</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="index.js" async></script>
+</head>
+<body class="body">
+    <div class="container">
+        <section class="player player--0 player--active">
+            <h2 class="name" id="name--0">PLAYER 1</h2>
+            <p class="score" id="score--0">0</p>
+            <div class="current">
+                <p class="current-label">CURRENT</p>
+                <p class="current-score" id="current--0">0</p>
+            </div>
+        </section>
+        <section class="player player--1">
+            <h2 class="name" id="name--1">PLAYER 2</h2>
+            <p class="score" id="score--1">0</p>
+            <div class="current">
+                <p class="current-label">CURRENT</p>
+                <p class="current-score" id="current--1">0</p>
+            </div>
+        </section>
+        <img src="dice-1.png" alt="Dice" class="dice" id="dice" style="display:none;">
+        <button class="btn btn--new" id="btn--new">🔄 NEW GAME</button>
+        <button class="btn btn--roll" id="btn--roll">🎲 ROLL DICE</button>
+        <button class="btn btn--hold" id="btn--hold">📥 HOLD</button>
+    </div>
+    <script src="pig_game.js"></script>
+</body>
+</html>
